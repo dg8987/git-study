@@ -1,3 +1,4 @@
+//if(i===str.length=1) result +=repeat;
 function compress(str) {
   var repeat = 1;
   var result = str.charAt(0);
@@ -7,6 +8,7 @@ function compress(str) {
  
     if( str.charAt(i) === prev ) {
       repeat++;
+    if(i===str.length=1) result +=repeat;
     } else {
       if (repeat > 1) result += repeat;
       result += str.charAt(i);
