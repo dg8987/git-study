@@ -1,4 +1,4 @@
-//if(i===str.length=1) result +=repeat;
+//if(i===str.length=1) result +=repeat
 function compress(str) {
   var repeat = 1;
   var result = str.charAt(0);
